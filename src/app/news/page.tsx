@@ -1,6 +1,6 @@
 "use client";
 
-import { getNews } from "@/app/server";
+import { getNews } from "@/shared/server";
 import { News } from "@/app/types";
 import { useEffect, useState } from "react";
 

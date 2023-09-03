@@ -1,4 +1,4 @@
-import { getProducts } from "@/app/server";
+import { getProducts } from "@/shared/server";
 
 export default async function Products() {
   const products = await getProducts();

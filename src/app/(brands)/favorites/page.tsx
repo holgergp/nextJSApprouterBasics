@@ -1,4 +1,4 @@
-import { getFavoriteBrands } from "@/app/server";
+import { getFavoriteBrands } from "@/shared/server";
 
 export default async function Favorites() {
   const products = await getFavoriteBrands();
